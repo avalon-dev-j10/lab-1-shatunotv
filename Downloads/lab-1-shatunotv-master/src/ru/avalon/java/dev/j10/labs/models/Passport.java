@@ -22,6 +22,22 @@ public class Passport {
     String issueDate;
     String org;
     Passport ivanovPassport;
+    
+    /*  TODO (Проверка №1)
+        Добавить коментарии к полям и методам класса
+        В конструкторе не все инициализируются поля класса!!!
+        Создать несколько конструкторов - один с полным набором параметров,
+        остальные без возможно остсутствующих параметров, при этом сделать
+        прегрузку конструкторов со ссылкой конструктора с меньшим количеством
+        параметров на конструктор с большим или полным кол. параметров
+    
+        Поля Address  - Address ivanovAddress и Address smithAddress здесь не должно быть!
+        Поле Passport ivanovPassport; должно быть в классе Person, по условию задачи!
+        Не все поля класса описаны - имя, фамилия, отчество, второе имя.
+    
+        Внимательно читай условия задания!!!!
+    */
+    
     Passport smithPassport;
     
     
@@ -30,7 +46,7 @@ public class Passport {
         this.serialNumber = serialNumber;
         this.issueDate = issueDate;
         this.org = org;
-        }      
+        }    
     public Passport() {
         this("21.03.2019", "серия номер", "11.03.2019г.", "РУВД"); 
         

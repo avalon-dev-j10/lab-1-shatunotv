@@ -19,6 +19,17 @@ public class Person {
     public Person smith;
     public String fullName;
 
+    /*  TODO (Проверка №1)
+        Добавить коментарии к полям и методам класса
+    
+        Здесь достаточно всего два поля класса - Passport passport;
+        и Address address;
+        
+        Все не нужные поля и методы необходимо убрать!
+        Конструктор и методы переделать переделать через классы Passport passport;
+        и Address address;
+    */
+    
       public Person(String name, String surName) {
         this.name = name;
         this.surName = surName;

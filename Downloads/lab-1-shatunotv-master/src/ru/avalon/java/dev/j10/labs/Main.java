@@ -16,6 +16,11 @@ public static void main(String args[]) {
           Person smith = new Person("John", "Smith");
           ivanov.setFatherName("Иванович");
           smith.setSecondName("Edvard");
+          
+    /*
+          Класс Person должен состоять из вдух классов - Passport и Address!!!
+          Переделать объявление ivanov и smith!
+          */
 
     
     Passport ivanovPassport = new Passport("11.11.2011", "1111 111111", 
@@ -47,6 +52,13 @@ public static void main(String args[]) {
    
    
    System.out.println(smithAddress.getFullAddress());
-        }   
+   /* TODO (Проверка №1)
+        Методы getFullName и getFullAddress должны быть описаны в классе Person
+        здесь не должно быть из реализации!!!!
+        Смотри первоначальные условия!!!
+   
+   */
+   
+    }   
  
 }
