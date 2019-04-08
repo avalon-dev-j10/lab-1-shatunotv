@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-//инициализация в статическом методе
-//
+        //инициализация в статическом методе
+        //
         Person ivanov = null;
         Person smith = null;
         Address smithAddress = new Address("квартира", "корпус", "дом", 
@@ -18,6 +18,10 @@ public class Main {
         
         Address ivanovAddress = new Address("квартира", "корпус", "дом", 
                 "улица", "город", "край/область");
+        /*  TODO (Проверка №2 ЛР№1)
+            - Для чего пустые шаблоны? Убрать!
+        */
+
         //присваивание значений
         Passport smithPassport = new Passport("John", "Smith", null, "Edvard", "11.11.1111",
                 "*можно больше не переделывать?*", "11.11.2011", " Монреальским РУВД", new Address("11", "1", "111",
@@ -34,7 +38,7 @@ public class Main {
 
         ivanov = new Person(ivanovPassport, ivanovAddress);
 
-//вывод в консоль
+        //вывод в консоль
 
         String ivanovFullName = ivanov.getFullName();
         System.out.println( ivanovFullName );
